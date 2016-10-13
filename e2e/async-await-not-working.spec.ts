@@ -15,7 +15,7 @@ describe('async/await support', () => {
         // the following (commented out code) is equivalent to the above, but fails to compile
         // with the error "operand for 'await' does not have a valid callable 'then' member"
 
-        // if (await rows.count() > 0) {
+        // if ((await rows.count()) > 0) {
         //     expect(rows.get(0).isPresent()).toBe(true);
         // }
     });
